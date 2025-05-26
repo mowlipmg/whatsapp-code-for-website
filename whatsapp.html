@@ -1,0 +1,34 @@
+<a href="https://wa.me/600162828376?text=Hello!" target="_blank" class="whatsapp-btn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Chat with us on WhatsApp" class="whatsapp-icon">
+</a>
+
+<style>
+  /* Styling for all devices */
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 150px; /* Distance from the bottom */
+    right: 22px;  /* Distance from the right */
+    z-index: 1000;
+  }
+
+  .whatsapp-icon {
+    width: 70px; /* Increased icon size */
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  /* Optional: Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .whatsapp-icon {
+      width: 65px; /* Slightly larger for tablets */
+      height: 65px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .whatsapp-icon {
+      width: 60px; /* Larger size for very small screens */
+      height: 60px;
+    }
+  }
+</style>
